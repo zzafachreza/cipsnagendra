@@ -18,8 +18,6 @@ import {
 } from '../pages';
 import { colors } from '../utils';
 import { Icon } from 'react-native-elements';
-import MenuRambuK3 from '../pages/RambuK3';
-import PageInformasiPersyaratanDetail from '../pages/PageData/PageInformasiPersyaratanDetail';
 
 const Stack = createStackNavigator();
 

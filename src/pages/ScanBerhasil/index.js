@@ -132,7 +132,7 @@ export default function ScanBerhasil({ navigation, route }) {
                             <MyList label="Tanggal Scan" value={moment().format('dddd, DD MMMM YYYY')} />
                             <MyList label="Jam Scan" value={moment().format('HH:mm:ss')} />
                             <MyList label="Barcode" value={item.barcode} />
-                            <MyList label="Jarak Scan" value={item.jarak + ' Meter'} />
+                            {/* <MyList label="Jarak Scan" value={item.jarak + ' Meter'} /> */}
 
                         </View>
                         {/* data detail */}

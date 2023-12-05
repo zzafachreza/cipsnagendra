@@ -55,7 +55,7 @@ export default function Absen({ navigation, route }) {
             flex: 1,
             backgroundColor: colors.primary,
         }}>
-            <MyHeader judul="Absensi" />
+            <MyHeader judul="Absensi" onPress={() => navigation.goBack()} />
 
             {open && <View style={{
                 flex: 1,
