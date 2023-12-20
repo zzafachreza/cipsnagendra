@@ -51,6 +51,9 @@ export default function MyCarouser() {
   return (
     <View>
       <Carousel
+        autoplay={true}
+        autoplayInterval={4000}
+        autoplayDelay={1000}
         loop={true}
         // layout="stack"
         layoutCardOffset={18}

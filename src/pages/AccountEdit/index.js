@@ -102,14 +102,6 @@ export default function AccountEdit({ navigation, route }) {
                 </View>
 
 
-                <MyInput label="Username" iconname="at" value={kirim.username} onChangeText={x => setKirim({ ...kirim, username: x })} />
-                <MyGap jarak={10} />
-
-                <MyInput label="Nama Pengguna" iconname="person" value={kirim.nama_lengkap} onChangeText={x => setKirim({ ...kirim, nama_lengkap: x })} />
-                <MyGap jarak={10} />
-
-
-                <MyInput label="No. Handphone" iconname="logo-whatsapp" keyboardType="phone-pad" value={kirim.telepon} onChangeText={x => setKirim({ ...kirim, telepon: x })} />
 
 
 
